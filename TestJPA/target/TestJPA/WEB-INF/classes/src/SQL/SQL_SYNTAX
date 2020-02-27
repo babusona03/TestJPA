@@ -1,0 +1,12 @@
+CREATE TABLE contact_db
+(
+	id NUMBER(5)PRIMARY KEY,
+	contact_name VARCHAR2(20),
+	phone_no VARCHAR2(20)
+);
+
+CREATE SEQUENCE contact_seq
+INCREMENT BY 1
+START WITH 0
+MINVALUE 0
+NOCACHE;
